@@ -1,0 +1,18 @@
+body{width: 100%; background: grey; margin: 0px;}
+#header{height: 70px; width: 100%; position: relative; top: 0px; background-color: #000; color: #fff;}
+#header a {color: #fff; display: block; width: 100%; box-sizing: border-box; padding-top: 8px;text-decoration: none; display: block; height: 100%;}
+#header a:hover{color: #00cc00}
+#header div{height: 70px; display: inline-block;}
+#header .lienHeader{width: 70px; display: inline-block; vertical-align: top; font-size: 45px; padding-top: 5px;box-sizing: border-box; text-align: center;}
+#header .lienHeader:hover,#header .profil a:hover{background:#999999}
+#header .profil{position: absolute; right: 0px; width: 200px; text-align: center;}
+#header .profil a{height: 35px;}
+.TitreHeader{text-align: center}
+div.content{width: 1032px; margin: auto; display: block !important; position: relative}
+
+.texte{min-height: 500px;}
+
+#footer{width: 100%; background: #000; color: #fff}
+#footer .content div{display: inline-block;}
+#menuApp, #menuPortail{width: 25%;}
+#infos{width: 49%;}
